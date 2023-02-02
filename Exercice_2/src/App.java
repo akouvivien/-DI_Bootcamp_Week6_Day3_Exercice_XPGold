@@ -12,7 +12,7 @@ public class App {
 
 
 
-        System.out.println(" combien de nombre voulez vous enregistrer");
+        System.out.println("combien de nombre voulez vous enregistrer");
         int choix = scanner.nextInt();
         int i = 1;
         do {
@@ -22,9 +22,9 @@ public class App {
             
             i++;
         } while (i <= choix);
-        System.out.println("l'ensemble des nombres enregistrés est");
+        System.out.println();
         for (int el : myList) {
-            // System.out.print(el +" ");
+             System.out.println();
             if (el > 0) {
                 System.out.println("le nombre de positives");
                 positive ++;
